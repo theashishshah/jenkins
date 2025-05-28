@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/theashishshah/mvn-college.git'
+                git branch: 'main', url: 'https://github.com/theashishshah/jenkins.git'
             }
         }
 
